@@ -23,7 +23,6 @@ let productSchema=new mongoose.Schema({
      },
      productUrl:{
         type:String,
-        required:true,
         trim:true
      }
 },{

@@ -34,7 +34,6 @@ const createProductSchema=Joi.object({
   productUrl: Joi.string()
     .trim()
     .uri()
-    .required()
     .messages({
       "string.uri": "Product URL must be a valid URL",
       "any.required": "Product URL is required",
